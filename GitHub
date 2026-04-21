@@ -1,0 +1,35 @@
+my-first-project/
+│── main.py
+│── README.md
+│── requirements.txtdef greet(name):
+    return f"Hello, {name}! Welcome to GitHub 🚀"
+
+if __name__ == "__main__":
+    user_name = input("Enter your name: ")
+    print(greet(user_name))# My First GitHub Project 🚀
+
+This is a simple Python project that greets users.
+
+## Features
+- Takes user input
+- Displays a greeting message
+
+## How to Run
+1. Install Python
+2. Run the script:
+   ```bash
+   python main.py---
+
+### 📦 `requirements.txt`---
+
+## 🔹 How to Upload to GitHub
+1. Go to GitHub and create a new repository  
+2. Open terminal in your project folder  
+3. Run:
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/your-username/repo-name.git
+git push -u origin main
